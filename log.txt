@@ -1,0 +1,537 @@
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.session.session - PingTask stopped
+pyrogram.session.session - NetworkTask stopped
+pyrogram.connection.connection - Disconnected
+pyrogram.session.session - Session stopped
+pyrogram.session.auth - Start creating a new auth key on DC2
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC2 - IPv4
+pyrogram.session.auth - Done auth key exchange: DhGenOk
+pyrogram.connection.connection - Disconnected
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC2 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.session.session - PingTask stopped
+pyrogram.session.session - NetworkTask stopped
+pyrogram.connection.connection - Disconnected
+pyrogram.session.session - Session stopped
+pyrogram.session.auth - Start creating a new auth key on DC5
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.auth - Done auth key exchange: DhGenOk
+pyrogram.connection.connection - Disconnected
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+__main__ - Error: module 'pyrogram.filters' has no attribute 'edited'
+__main__ - <---Bot Stopped-->
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+__main__ - Error: No module named 'tgcrypto'
+__main__ - <---Bot Stopped-->
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cp"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cpd"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.e1"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.exampur"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("forward") in group 0 from "plugins.forward"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.khan"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.mgconcept"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.ocean"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.pw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.rjvikramjeet"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account") in group 0 from "plugins.sam"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.txt"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.vidya"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.winners"
+pyrogram.client - [TextExtractorBot] Successfully loaded 18 plugins from "plugins"
+pyrogram.dispatcher - Started 50 HandlerTasks
+pyrogram.dispatcher - string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\pw.py", line 107, in account_login
+    response2 = requests.get(f'https://api.penpencil.xyz/v3/batches/{raw_text3}/details', headers=headers).json()["data"]["subjects"]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+root - Stop signal received (SIGINT). Exiting...
+pyrogram.dispatcher - Stopped 50 HandlerTasks
+pyrogram.session.session - PingTask stopped
+pyrogram.session.session - NetworkTask stopped
+pyrogram.connection.connection - Disconnected
+pyrogram.session.session - Session stopped
+__main__ - <---Bot Stopped-->
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cp"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cpd"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.e1"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.exampur"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("forward") in group 0 from "plugins.forward"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.khan"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.mgconcept"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.ocean"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.pw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.rjvikramjeet"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account") in group 0 from "plugins.sam"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.txt"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.vidya"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.winners"
+pyrogram.client - [TextExtractorBot] Successfully loaded 18 plugins from "plugins"
+pyrogram.dispatcher - Started 50 HandlerTasks
+pyrogram.dispatcher - string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\pw.py", line 107, in account_login
+    response2 = requests.get(f'https://api.penpencil.xyz/v3/batches/{raw_text3}/details', headers=headers).json()["data"]["subjects"]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+root - Stop signal received (SIGINT). Exiting...
+pyrogram.dispatcher - Stopped 50 HandlerTasks
+pyrogram.session.session - PingTask stopped
+pyrogram.session.session - NetworkTask stopped
+pyrogram.connection.connection - Disconnected
+pyrogram.session.session - Session stopped
+__main__ - <---Bot Stopped-->
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cp"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cpd"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.e1"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.exampur"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("forward") in group 0 from "plugins.forward"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.khan"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.mgconcept"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.ocean"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.pw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.rjvikramjeet"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account") in group 0 from "plugins.sam"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.txt"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.vidya"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.winners"
+pyrogram.client - [TextExtractorBot] Successfully loaded 18 plugins from "plugins"
+pyrogram.dispatcher - Started 50 HandlerTasks
+pyrogram.dispatcher - string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\pw.py", line 107, in account_login
+    response2 = requests.get(f'https://api.penpencil.xyz/v3/batches/{raw_text3}/details', headers=headers).json()["data"]["subjects"]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cp"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cpd"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.e1"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.exampur"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("forward") in group 0 from "plugins.forward"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.khan"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.mgconcept"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.ocean"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.pw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.rjvikramjeet"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account") in group 0 from "plugins.sam"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.txt"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.vidya"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.winners"
+pyrogram.client - [TextExtractorBot] Successfully loaded 18 plugins from "plugins"
+pyrogram.dispatcher - Started 50 HandlerTasks
+pyrogram.dispatcher - list index out of range
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\mgconcept.py", line 59, in account_login
+    info["password"] = raw_text.split("*")[1]
+                       ~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+pyrogram.dispatcher - string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\pw.py", line 107, in account_login
+    response2 = requests.get(f'https://api.penpencil.xyz/v3/batches/{raw_text3}/details', headers=headers).json()["data"]["subjects"]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+pyrogram.dispatcher - list index out of range
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\e1.py", line 74, in account_login
+    info["password"] = raw_text.split("*")[1]
+                       ~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+pyrogram.dispatcher - string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\pw.py", line 107, in account_login
+    response2 = requests.get(f'https://api.penpencil.xyz/v3/batches/{raw_text3}/details', headers=headers).json()["data"]["subjects"]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+pyrogram.dispatcher - string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\pw.py", line 107, in account_login
+    response2 = requests.get(f'https://api.penpencil.xyz/v3/batches/{raw_text3}/details', headers=headers).json()["data"]["subjects"]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+pyrogram.dispatcher - list index out of range
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\txt.py", line 78, in account_login
+    info["password"] = raw_text.split("*")[1]
+                       ~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+pyrogram.dispatcher - string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\pw.py", line 107, in account_login
+    response2 = requests.get(f'https://api.penpencil.xyz/v3/batches/{raw_text3}/details', headers=headers).json()["data"]["subjects"]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+pyrogram.dispatcher - string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\pw.py", line 107, in account_login
+    response2 = requests.get(f'https://api.penpencil.xyz/v3/batches/{raw_text3}/details', headers=headers).json()["data"]["subjects"]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+pyrogram.dispatcher - string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\pw.py", line 107, in account_login
+    response2 = requests.get(f'https://api.penpencil.xyz/v3/batches/{raw_text3}/details', headers=headers).json()["data"]["subjects"]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+pyrogram.dispatcher - string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\pw.py", line 107, in account_login
+    response2 = requests.get(f'https://api.penpencil.xyz/v3/batches/{raw_text3}/details', headers=headers).json()["data"]["subjects"]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cp"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cpd"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.e1"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.exampur"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("forward") in group 0 from "plugins.forward"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.khan"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.mgconcept"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.ocean"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.pw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.rjvikramjeet"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account") in group 0 from "plugins.sam"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.txt"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.vidya"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.winners"
+pyrogram.client - [TextExtractorBot] Successfully loaded 18 plugins from "plugins"
+pyrogram.dispatcher - Started 50 HandlerTasks
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.dispatcher - list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\cp.py", line 86, in account_login
+    b_data = resp.json()["data"]["totalBatches"]
+             ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cp"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cpd"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.e1"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.exampur"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("forward") in group 0 from "plugins.forward"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.khan"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.mgconcept"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.ocean"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.pw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.rjvikramjeet"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account") in group 0 from "plugins.sam"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.txt"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.vidya"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.winners"
+pyrogram.client - [TextExtractorBot] Successfully loaded 18 plugins from "plugins"
+pyrogram.dispatcher - Started 50 HandlerTasks
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.dispatcher - list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\user\Desktop\txtExtractor\plugins\cp.py", line 86, in account_login
+    b_data = resp.json()["data"]["totalBatches"]
+             ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cp"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cpd"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.e1"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.exampur"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("forward") in group 0 from "plugins.forward"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.khan"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.mgconcept"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.ocean"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.pw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.rjvikramjeet"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account") in group 0 from "plugins.sam"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.txt"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.vidya"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.winners"
+pyrogram.client - [TextExtractorBot] Successfully loaded 18 plugins from "plugins"
+pyrogram.dispatcher - Started 50 HandlerTasks
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 (media) - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.session.session - PingTask stopped
+pyrogram.session.session - NetworkTask stopped
+pyrogram.connection.connection - Disconnected
+pyrogram.session.session - Session stopped
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cp"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cpd"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.e1"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.exampur"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("forward") in group 0 from "plugins.forward"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.khan"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.mgconcept"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.ocean"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.pw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.rjvikramjeet"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account") in group 0 from "plugins.sam"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.txt"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.vidya"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.winners"
+pyrogram.client - [TextExtractorBot] Successfully loaded 18 plugins from "plugins"
+pyrogram.dispatcher - Started 50 HandlerTasks
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cp"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cpd"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.e1"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.exampur"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("forward") in group 0 from "plugins.forward"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.khan"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.mgconcept"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.ocean"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.pw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.rjvikramjeet"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account") in group 0 from "plugins.sam"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.txt"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.vidya"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.winners"
+pyrogram.client - [TextExtractorBot] Successfully loaded 18 plugins from "plugins"
+pyrogram.dispatcher - Started 50 HandlerTasks
+pyrogram.session.session - NetworkTask stopped
+pyrogram.session.session - PingTask stopped
+pyrogram.connection.connection - Disconnected
+pyrogram.session.session - Session stopped
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.connection.connection - Connecting...
+pyrogram.connection.connection - Connected! Production DC5 - IPv4
+pyrogram.session.session - NetworkTask started
+pyrogram.session.session - Session initialized: Layer 158
+pyrogram.session.session - Device: CPython 3.13.3 - Pyrogram 2.0.106
+pyrogram.session.session - System: Windows 11 (en)
+pyrogram.session.session - Session started
+pyrogram.session.session - PingTask started
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("Start_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("log_msg") in group 0 from "plugins.__init__"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cp"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cpd"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.cw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.e1"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.exampur"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("forward") in group 0 from "plugins.forward"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.khan"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.mgconcept"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.ocean"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.pw"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.rjvikramjeet"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account") in group 0 from "plugins.sam"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.txt"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.vidya"
+pyrogram.client - [TextExtractorBot] [LOAD] MessageHandler("account_login") in group 0 from "plugins.winners"
+pyrogram.client - [TextExtractorBot] Successfully loaded 18 plugins from "plugins"
+pyrogram.dispatcher - Started 50 HandlerTasks
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
+pyrogram.parser.html - Unclosed tags: <pre> (x1)
