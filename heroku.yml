@@ -1,5 +1,10 @@
 build:
   docker:
-    worker: Dockerfile
+    web: Dockerfile
 run:
-  worker: python3 main.py
+  web: python app.py
+ 
+# For deployment on platforms like Heroku/Koyeb
+# Add these buildpacks if needed:
+# https://github.com/heroku/heroku-buildpack-activestorage-preview
+# https://github.com/heroku/heroku-buildpack-apt
